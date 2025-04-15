@@ -72,11 +72,11 @@ class _MyAppState extends State<MyApp> {
                         Navigator.pop(context);
                       }
                     },
-                    child: const Text("Adds"),
+                    child: const Text("Add"),
                   ),
                   TextButton(
                     onPressed: () => Navigator.pop(context),
-                    child: const Text("Cancelssssss"),
+                    child: const Text("Cancel"),
                   ),
                 ],
               ),
